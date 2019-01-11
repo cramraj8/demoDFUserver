@@ -1,0 +1,12 @@
+
+.icon_CV {
+    background: url('../images/CV_icon.svg');
+    height: 50%;
+    width: 50%;
+    /*display: block;*/
+    display: inline-block;
+    /* Other styles here */
+    /*viewBox:"0 0 54 54";*/
+}
+
+
