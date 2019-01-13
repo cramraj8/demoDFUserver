@@ -1,0 +1,24 @@
+.panel-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.panel-text {
+    width: 20%;
+}
+
+.panel-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.panel-item > * {
+    margin: 5px 0;
+}
+.panel-item img {
+    width: 100%;
+    height: auto;
+}
