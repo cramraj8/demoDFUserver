@@ -32,6 +32,7 @@
         <link rel="stylesheet" href="css/custom_icons.css">
         
         <link rel="stylesheet" href="css/custom.css">
+        <script src="js/custom.js"></script>
     </head>
     <body>
         
@@ -66,9 +67,12 @@
                                                     It should be single patient's data</p>
                                                 </div>
                                                 <div class="panel-item">
+                                                    <label for="inputname">Label</label>
+                                                    <input name="inputname" placeholder="Input Placeholder" type="text">
                                                     <img src="images/image.jpg">
                                                 </div>
                                                 <div class="panel-item">
+                                                    <input type="file">
                                                     <img src="images/image.jpg">                                                    
                                                 </div>
                                             </div>
@@ -91,9 +95,20 @@
                                                         <br>It has multiple algorithm options <br></p>
                                                     </div>
                                                     <div class="panel-item">
-                                                        <img src="images/image.jpg">
+                                                        <div id="imagePoint1">Clicked location: </div>
+                                                        <img id="clickableImage1" src="images/image.jpg">
                                                     </div>
                                                     <div class="panel-item">
+                                                        <select name="selectionVariable">
+                                                            <option value="value1">Value 1</option>
+                                                            <option value="value2">Value 2</option>
+                                                            <option value="value3">Value 3</option>
+                                                            <option value="value3">Value 3</option>
+                                                        </select>
+                                                        <div id="sel1opt1" hidden="true">Value 1 is selected</div>
+                                                        <div id="sel1opt2" hidden="true">Value 2 is selected</div>
+                                                        <div id="sel1opt3">Value 3 is selected</div>
+                                                        <div id="sel1opt4">Value 4 is selected</div>
                                                         <img src="images/image.jpg">
                                                     </div>
                                                 </div>
